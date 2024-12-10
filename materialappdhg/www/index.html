@@ -25,10 +25,30 @@
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <link rel="stylesheet" type = "text/css" href="css/materialize.css">
-        <title>Hello World</title>
+        <link rel="stylesheet" type = "text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+        <title>Materialize DHG</title>
     </head>
     <body>
+        <ul id="slide-out" class="sidenav">
+            <li><div class="user-view">
+              <div class="background">
+                <img src="images/office.jpg">
+              </div>
+              <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+              <a href="#name"><span class="black-text name">Daniel Hirsch</span></a>
+              <a href="#email"><span class="black-text email">daniel.hirsch.garcia@gmail.com</span></a>
+            </div></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+            <li><a href="#!">Second Link</a></li>
+            <li><div class="divider"></div></li>
+            <li><a class="subheader">Subheader</a></li>
+            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+          </ul>
+
+
         <ul id="tabs-swipe-demo" class="tabs">
+            <li class="col s3"><a href="#" data-target="slide-out" class="sidenav-trigger"><span class="material-icons-outlined">menu</span></a> </li>
             <li class="tab col s3"><a href="#test-swipe-1">Test 1</a></li>
             <li class="tab col s3"><a class="active" href="#test-swipe-2">Test 2</a></li>
             <li class="tab col s3"><a href="#test-swipe-3">Test 3</a></li>
